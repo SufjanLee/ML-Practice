@@ -1,3 +1,4 @@
 # ML-Practice
 
-My machine learning progress.
+My machine learning progress based on sklearn.
+
