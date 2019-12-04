@@ -77,3 +77,15 @@ if __name__ == '__main__':
 	x_tr, x_te = stand(x_tr, x_te)
 	logistic_linear(x_tr, y_tr, x_te, y_te)
 	linear(x_tr, y_tr, x_te, y_te)
+
+	# 测试结果：
+
+	# --逻辑回归--
+	# precision: 0.822
+	# --over--
+
+	# --线性回归 - -
+	# precision: 0.9081529993900117
+	# w: [-0.17970286  0.00686424  0.57574111  0.39311451]
+	# b: 1.0095238095238095
+	# --over--
