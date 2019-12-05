@@ -47,6 +47,7 @@ def decision(x_train, x_test, y_train, y_test, iris):
 	print("预测值：\n", prediction)
 	print("真实值与预测值比较：\n", prediction == y_test)
 	# 对决策树进行可视化，但未解决潜在的过拟合问题（TO-DO）
+	# dot文件可以使用webgraphviz.com进行查看
 	export_graphviz(estimator, out_file="E:\python project\Machine Learning\iris_tree.dot", feature_names=iris.feature_names)
 	return None
 
