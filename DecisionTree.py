@@ -2,7 +2,6 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import Normalizer
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
-from sklearn.model_selection import GridSearchCV
 
 
 def iris_data():
